@@ -1,0 +1,7 @@
+.active {
+    background-color: magenta;
+}
+li a:hover:not(.active) {
+    background-color:#FF00FF
+    ;
+  }
