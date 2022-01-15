@@ -3,6 +3,11 @@ html {
     font-family: sans-serif;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1 {
     text-align: center;
     color: magenta;
@@ -25,6 +30,10 @@ h1 {
     text-align: center;
     font-size: 25px;
     color: #3385FF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 ul {
@@ -91,6 +100,10 @@ li.dropdown {
     font-size: 25px;
     text-align: center;
     color: #3385FF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 li {
@@ -118,12 +131,21 @@ img {
 .exchanges {
     height: 200px;
     width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .Web3 {
     text-align: center;
     font-size: 25px;
     color: #3385FF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 .twitter-tweet {
@@ -144,7 +166,7 @@ img {
   font-family: "Inter", sans-serif;
   margin-left: 80px;
   margin-right: 80px;
-  margin-top: -10px;
+  margin-top: 40px;
   margin-bottom: -10px;
 }
 
@@ -218,11 +240,17 @@ img {
 
   @media all and (max-width: 480px) {
 
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .paragraph {
 
         justify-content: center;
         align-items: center;
-        list-style-position: inside;
+        margin-left: 40px;
+        margin-right: 40px;
 
     }
  
@@ -231,21 +259,22 @@ img {
         display: flex;
         justify-content: space-between;
         align-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
         height: 300px;
     }
 
     .container {
-        width: 100%;
+        width: 75%;
         height: 300px;
         align-content: space-between;
         align-items: center;
         justify-content: space-between;
+        display: flex;
         flex-direction: column;
-        margin-bottom: 5px;
-        margin-top: 5px;
-        font-size: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .twitter-tweet {
@@ -256,13 +285,91 @@ img {
     .exchanges {
         justify-content: space-between;
         align-content: space-between;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         flex-direction: column;
         align-items: center;                     
-        margin-right: 50%;
+        justify-content: center;
         display: flex;
         width: 100%;
     }
 
+    .blockgeeks {
+        height: 600px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;    }
+
+    .uniswap {
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 75%;
+    }
+
+    .wallets {
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 75%;
+    }
+
+    .NFTs {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .Metaverse {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .Web3 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .metamask {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 75%;
+        display: block;    
 }
+
+.ERC20 {
+    margin-top: 300px;
+}
+
+.readyplayerone {
+    justify-content: center;
+    align-content: center;
+    margin-right: 30%;
+}
+
+.OpenSea {
+    margin-top: 100px;
+}
+
+.BAYC2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.CryptoKitties {
+    width: 75%;
+    height: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+} 
